@@ -1,4 +1,6 @@
-## Examples of the SOLID Principles in C#
+# Examples of the SOLID Principles in C# and .Net
+### as taught by Dmitri Nesteruk
+
 Single Responsibility Principle
 
 Open-Close Principle
@@ -9,7 +11,7 @@ Interface Segregation Principle
 
 Dependency Inversion Principle
 
-## Examples of the GoF Design Patterns in C#
+# Examples of the GoF Design Patterns in C# and .Net
 ## Creational Patterns include:
 Builder
 
@@ -58,3 +60,5 @@ Strategy
 Template Method
 
 Visitor
+
+### Repo will be updated frequently as I complete the course
