@@ -16,7 +16,7 @@ public abstract class FunctionalBuilder<TSubject, TSelf>
 
     public TSelf Do(Action<Person> action)
     => AddAction(action);
-    public Person Build()
+    public TSubject Build()
     => actions.Aggregate(new Person(), (p, a) => a(p));
     
     private PersonBuilder AddAction(Action<Person> action)
