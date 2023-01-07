@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using static System.Console;
 
-namespace Decorator
+namespace DecoratorPattern
 {
   // Decorator - facilitates the addition of behaviors to individual objects without inheriting from them
   // return builder.(.+)$
